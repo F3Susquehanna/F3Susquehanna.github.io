@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-size: 14px;
+}
+/*This is the beginning of the header*/
+.header {
+    background: black;
+    text-align: right;
+  }
+ 
+        .header img {
+            float: left;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+        .header p{
+            float: left;
+            color: #fff;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+            .home{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 70px;
+                color: white;
+                font-size: 14pt;
+                margin-right: 2px;
+            }
+            .about{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 80px;
+                color: white;
+                font-size: 14pt;
+            }
+            .testimony{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 100px;
+                color: white;
+                font-size: 14pt;
+            }
+            .contact{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 100px;
+                color: white;
+                font-size: 14pt;
+                margin-right: 40px;
+                margin-left: 5px;
+            }
+/*This is the end of the header*/
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+flex-basis: 60%;
+padding: 40px 60px;
+background: #848C8E;
+vertical-align: auto;
+
+}
+.contact-right{
+flex-basis: 40%;
+padding: 40px;
+background: #8E8584;
+color: #fff;
+}
+.contact-right h3{
+    margin-bottom: 60px;
+}
+h1{
+    margin-bottom: 10px;
+    color: black;
+}
+.container p{
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.send{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 40px 0;
+    display: block;
+    background: #406A45;
+    box-shadow: #8E8584 2px 2px;
+    cursor: pointer;
+}
+  .facebook {
+    font-size:15px;
+    font-family:Arial;
+    width:120px;
+    height:23px;
+    border-width:1px;
+    color:#fff;
+    border-color:#1f2f47;
+    border-top-left-radius:17px;
+    border-top-right-radius:17px;
+    border-bottom-left-radius:17px;
+    border-bottom-right-radius:17px;
+    box-shadow:inset 0px 0px 15px 3px #23395e;
+    text-shadow:inset 0px 1px 0px #263666;
+    background:linear-gradient(#2e466e, #415989);
+    float: inline-end;
+    margin-top: 100px;
+  }
+  
+  .facebook:hover {
+    background: linear-gradient(#415989, #2e466e);
+    cursor: pointer;
+  }
+  .twitter-follow-button{
+    margin-top: 100px;
+    float: inline-start;
+  }

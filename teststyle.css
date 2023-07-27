@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff;
+    font-size: 14px;
+}
+.header {
+    background: black;
+    text-align: right;
+  }
+ 
+        .header img {
+            float: left;
+            width: 50px;
+            height: 50px;
+            background: black;
+        }
+        .header p{
+            float: left;
+            color: #fff;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+            .home{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 70px;
+                color: white;
+                font-size: 14pt;
+                margin-right: 2px;
+            }
+            .about{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 80px;
+                color: white;
+                font-size: 14pt;
+            }
+            .testimony{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 100px;
+                color: white;
+                font-size: 14pt;
+            }
+            .contact{
+                cursor: pointer;
+                border: transparent;
+                background-color: transparent;
+                height: 50px;
+                width: 100px;
+                color: white;
+                font-size: 14pt;
+                margin-right: 40px;
+                margin-left: 5px;
+            }
+.container{
+    margin-top: 20px;
+    text-align: center;
+}
+.container p{
+    margin-top: 10px;
+    font-size: 14pt;
+}
+.podcast {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size:19px;
+    font-family:Arial;
+    width:120px;
+    height:40px;
+    border-width:0px;
+    color:#fff;
+    border-color:#566963;
+    font-weight:bold;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    text-shadow:inset 0px -1px 0px #2b665e;
+    background:linear-gradient(#768d87, #6c7c7c);
+  }
+  .podcast:hover {
+    background: linear-gradient(#6c7c7c, #768d87);
+  }
+.defibtest{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}  
+.defibtest::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.defibtest img{
+    float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.defibtest span {
+    font-size: 25pt ;
+  }
+  .defibtest p{
+    font-size: 16pt;
+    text-align: center;
+    line-height: 32px
+  }
+@media (max-width: 500px) {
+    .defibtest {
+      text-align: center;
+    }
+    .defibtest img {
+        margin: auto;
+        float: none;
+        display: block;
+      }
+    }
+    .spielbergtest{
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0;
+    }  
+    .spielbergtest::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .spielbergtest img{
+        float: right;
+      margin-right: 20px;
+      border-radius: 50%;
+    }
+    .spielbergtest span {
+        font-size: 25pt ;
+      }
+      .spielbergtest p{
+        font-size: 14pt;
+        text-align: center;
+      }
+    @media (max-width: 500px) {
+        .spielbergtest {
+          text-align: center;
+        }
+        .spielbergtest img {
+            margin: auto;
+            float: none;
+            display: block;
+          }
+        }
+
+        footer{
+          background-color: #c5c9c2;
+          background-size: cover;
+      }
+      .facebook {
+        font-size:15px;
+        font-family:Arial;
+        width:120px;
+        height:23px;
+        border-width:1px;
+        color:#fff;
+        border-color:#1f2f47;
+        border-top-left-radius:17px;
+        border-top-right-radius:17px;
+        border-bottom-left-radius:17px;
+        border-bottom-right-radius:17px;
+        box-shadow:inset 0px 0px 15px 3px #23395e;
+        text-shadow:inset 0px 1px 0px #263666;
+        background:linear-gradient(#2e466e, #415989);
+      }
+      
+      .facebook:hover {
+        background: linear-gradient(#415989, #2e466e);
+        cursor: pointer;
+      }
+      .column {
+          float: left;
+          width: 33.33%;
+          text-align: center;
+          background-color: #c5c9c2;
+          font-size: 12pt;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          line-height: 32PX;
+        }
+        .columns:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
